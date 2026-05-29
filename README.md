@@ -9,5 +9,4 @@ Modular deep reinforcement learning framework for algorithmic trading.
 - **Production-Ready**: Gradient monitoring, memory optimization, walk-forward validation
 - **Colab Compatible**: Clone and run in one cell
 
-## Architecture
 
