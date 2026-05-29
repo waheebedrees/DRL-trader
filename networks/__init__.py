@@ -28,7 +28,6 @@ from .layers import (
     
 )
 from .encoders import (
-
     MarketTransformerEncoder,
     AttentionLSTMEncoder,
     TemporalCNNEncoder,
@@ -43,8 +42,9 @@ from .encoders import (
     DiscreteActor,
     TwinQCritic,
     build_encoder,
+    
 )
-
+from .actor_critic_network import ActorCriticNetwork
 __all__ = [
     # Layers
     'NoisyLinear', 'GatedResidualBlock', 'PositionalEncoding',
@@ -57,5 +57,5 @@ __all__ = [
     # Heads
     'ContinuousActor', 'DuelingCritic', 'DistributionalCritic',   "DiscreteActor", "TwinQCritic",
     # Types
-    'ActorOutput', 'CriticOutput', 'DistributionalOutput',
+    'ActorOutput', 'CriticOutput', 'DistributionalOutput', "ActorCriticNetwork"
 ]
