@@ -1826,7 +1826,7 @@ def main() -> None:
     )
     trainer = PPOTrainer(net, pcfg, device)
 
-    for i in range(10):
+    for i in range(30):
         rm = trainer.collect_rollout(train_env)
         um = trainer.update()
         pl = um.get("policy_loss", 0)

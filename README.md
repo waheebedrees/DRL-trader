@@ -1,4 +1,4 @@
-# ZeroStrike DRL Trader v4.0
+# DRL Trader v4.0
 
 Modular deep reinforcement learning framework for algorithmic trading.
 
